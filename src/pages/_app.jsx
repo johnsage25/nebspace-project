@@ -35,12 +35,13 @@ function MyApp({ Component, pageProps }) {
   };
   useEffect(() => {
     setTimeout(() => {
-      Playit();
       document.addEventListener("click", () => {
         if (!showplayer) {
-          console.log("log")
+          console.log("log");
           setshowplayer(true);
-          playbutton.current?.play()
+          playbutton.current.volume = 0.2;
+          playbutton.current?.play();
+
         }
       });
     }, 1000);
@@ -53,8 +54,7 @@ function MyApp({ Component, pageProps }) {
         }
       />
       <Provider store={store}>
-
-        <audio controls={true} hidden={true} ref={playbutton} loop autoplay>
+        <audio  controls={true} hidden={true} ref={playbutton} loop autoplay>
           <source src="./audio/background.ogg" type="audio/ogg" />
           Your browser does not support the audio element.
         </audio>
