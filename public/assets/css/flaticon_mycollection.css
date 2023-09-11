@@ -1,0 +1,107 @@
+@font-face {
+    font-family: "flaticon_mycollection";
+    src: url("../fonts/flaticon_mycollection.ttf?c005112dd7e2cc38776b098652a389e3") format("truetype"),
+url("../fonts/flaticon_mycollection.woff?c005112dd7e2cc38776b098652a389e3") format("woff"),
+url("../fonts/flaticon_mycollection.woff2?c005112dd7e2cc38776b098652a389e3") format("woff2"),
+url("../fonts/flaticon_mycollection.eot?c005112dd7e2cc38776b098652a389e3#iefix") format("embedded-opentype"),
+url("../fonts/flaticon_mycollection.svg?c005112dd7e2cc38776b098652a389e3#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-experience:before {
+    content: "\f101";
+}
+.flaticon-feeding:before {
+    content: "\f102";
+}
+.flaticon-education:before {
+    content: "\f103";
+}
+.flaticon-family:before {
+    content: "\f104";
+}
+.flaticon-family-1:before {
+    content: "\f105";
+}
+.flaticon-ethical:before {
+    content: "\f106";
+}
+.flaticon-engagement:before {
+    content: "\f107";
+}
+.flaticon-ethics:before {
+    content: "\f108";
+}
+.flaticon-thumb-ups:before {
+    content: "\f109";
+}
+.flaticon-hand:before {
+    content: "\f10a";
+}
+.flaticon-play:before {
+    content: "\f10b";
+}
+.flaticon-play-button:before {
+    content: "\f10c";
+}
+.flaticon-protest:before {
+    content: "\f10d";
+}
+.flaticon-empowerment:before {
+    content: "\f10e";
+}
+.flaticon-teamwork:before {
+    content: "\f10f";
+}
+.flaticon-united:before {
+    content: "\f110";
+}
+.flaticon-honesty:before {
+    content: "\f111";
+}
+.flaticon-quality:before {
+    content: "\f112";
+}
+.flaticon-badge:before {
+    content: "\f113";
+}
+.flaticon-partnership:before {
+    content: "\f114";
+}
+.flaticon-handshake:before {
+    content: "\f115";
+}
+.flaticon-creativity:before {
+    content: "\f116";
+}
+.flaticon-inspiration:before {
+    content: "\f117";
+}
+.flaticon-address:before {
+    content: "\f118";
+}
+.flaticon-location:before {
+    content: "\f119";
+}
+.flaticon-mobile-phone:before {
+    content: "\f11a";
+}
+.flaticon-smartphone:before {
+    content: "\f11b";
+}
+.flaticon-mail:before {
+    content: "\f11c";
+}
+.flaticon-email:before {
+    content: "\f11d";
+}
